@@ -1,0 +1,27 @@
+
+/* Style for the button */
+.image-button:hover {
+    background-image: url('treeanime.jpg'); /* Path to your image */
+    background-size: cover;                /* Make the image cover the button */
+    background-repeat: no-repeat;          /* Prevent tiling */
+    background-position: center;
+    
+}
+  
+  .image-button {
+    font-size: 25px;
+    border-radius: 50px;
+    padding: 30px ;
+    transition: background .7s ease;
+
+
+  }
+ 
+  body {
+    margin: 0;
+    height: 100vh;                 /* Full viewport height */
+    display: flex;                 /* Use Flexbox */
+    justify-content: center;       /* Center horizontally */
+    align-items: center;           /* Center vertically */
+    background-color: #f4f4f4;     /* Optional background color */
+  }
